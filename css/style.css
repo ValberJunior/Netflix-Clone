@@ -19,7 +19,7 @@
 /* Base */
 
 body{
-    background-color: #141414;
+    background: linear-gradient(var(--color2),#141414);
     color: white;
 }
 
@@ -98,9 +98,9 @@ header a:hover{
 
 /*Title Definitions*/
 .section-title{
-    padding: 20px 10px;
+    padding: 15px;
     color: #cdcdcd;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 

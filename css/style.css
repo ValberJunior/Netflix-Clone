@@ -1,0 +1,264 @@
+/*Variabls*/
+:root{
+    --color1:#E62E2D;
+    --color2:#000000;
+}
+
+
+
+/*Deafult settings*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+
+/* Base */
+
+body{
+    background-color: #141414;
+    color: white;
+}
+
+
+header{
+    background-color: #000000a4;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px 30px;
+ 
+}
+
+header .icon{
+    display: none;  /*just for mobile view*/
+
+    width: 40px;
+    margin-left: 10px;
+
+    cursor: pointer;
+}
+
+header .logo{
+    color: var(--color1);
+    font-size: 30px;
+}
+
+header a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header a:hover{
+    color: #fff;
+}
+
+.container nav{
+    margin-left: 5%;
+}
+
+.icons{
+    width: 150px;
+    font-size: 30px;
+
+    display: flex;
+    align-items: center;
+
+    margin-right: 7%;
+
+    transition: 0.3s ease all;
+}
+
+.icons i{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.icons i:hover{
+    opacity: 0.7;
+}
+
+.user{
+    width: 35px;
+    cursor: 'pointer';
+    
+    cursor: pointer;
+}
+
+/*Title Definitions*/
+.section-title{
+    padding: 20px 10px;
+    color: #cdcdcd;
+    font-size: 30px;
+}
+
+
+/*Main Movie*/
+
+.main-movie{
+    font-size: 16px;
+    background: linear-gradient(#0000007a, #0000007a), url('../assets/introchampions.gif');
+    background-size: cover;
+    height: 650px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: 30px;
+}
+
+.main-movie .title{
+    margin-top: 15%;
+    font-size: 70px;
+    font-family: 'Atkinson Hyperlegible', Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+
+.main-movie .description{
+    margin-bottom: 50px;
+}
+
+.main-movie .container{
+    width: 70%;
+}
+
+.btn{
+    background-color: #ffffff5e;
+    border:none; 
+    outline: none;
+    cursor: pointer;
+    color: white;
+    padding: 13px 30px;
+    margin-right: 5px;
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 5px;
+
+    transition: 0.3s ease all;
+}
+
+.selected{
+    background-color: #FFF;
+    color: #000;
+
+    transition: 0.3s ease all;
+}
+
+.btn:hover{
+   opacity: 0.5;
+}
+
+.btn i{
+    margin-right: 5px;
+}
+
+#sound{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    align-self: flex-end;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+
+    cursor: pointer;
+}
+
+.movie-cover{
+    width: 100%;
+    height: 100%;
+    display: block;
+
+    cursor: pointer;
+
+}
+
+.movie-cover img{
+    width: 100%;
+    max-height: 100%;
+}
+
+.movies-carousel{
+    margin-top: 10px;
+
+}
+
+/*Footer*/
+
+footer{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+
+    padding: 20px;
+}
+
+.footer-container {
+    width: 100%;
+    height: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    padding: 10px;
+}
+
+.footer-container .social-media{
+    width: 100%;
+    font-size: 40px;
+    color: #cdcdcd;
+    margin: 20px;
+}
+
+.footer-container .info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 50px;
+
+   
+}
+
+.info .sub-info{
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+}
+
+.sub-info a{
+    margin-top: 25px;
+}
+
+footer a{
+    color: #cdcdcda6;
+    text-decoration: none;
+}
+
+footer .copyright{
+    width: 100%;
+    font-size: 16px;
+    color: #cdcdcd;
+
+    margin-top: 30px;
+}

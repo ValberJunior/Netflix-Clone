@@ -42,20 +42,20 @@ icon.addEventListener('click', ()=>{
 
 const audio = document.getElementById('audio');
 const sound = document.getElementById('sound');
-let muted = false;
+let isPlaying = false;
 
 sound.addEventListener('click',()=>{
-    let action = !muted;
+    let action = !isPlaying;
 
     if(action){
-        audio.muted = true;
-        sound.innerHTML = '<i class="fas fa-volume-mute"></i>';
-        return muted = true;
+        audio.play();
+        sound.innerHTML = '<i class="fas fa-volume-up"></i>';
+        return isPlaying = true;
         }
         else{
-        audio.muted = false ;
-        sound.innerHTML = '<i class="fas fa-volume-up"></i>';
-        return muted = true;
+        audio.pause() ;
+        sound.innerHTML = '<i class="fas fa-volume-mute"></i>';
+        return isPlaying = false;
         }
 
 })

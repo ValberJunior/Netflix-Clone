@@ -38,6 +38,9 @@
         display: block
         }
 
+     .main-movie .title{
+            font-size: 50px;
+     }
 
     .btn{
         margin-top: 10px;

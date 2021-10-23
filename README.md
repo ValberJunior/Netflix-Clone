@@ -34,5 +34,5 @@ https://user-images.githubusercontent.com/84424883/138556911-2481ec7b-94de-45ea-
 - Adaptei a versão mobile, visando uma boa experiência responsiva.
 - Para auxilio na estrutura, utilizei Jquery e JS, com apoio da biblioteca OWL.
 
-## Netlify 👉� https://futflix.netlify.app/
+## Netlify 👉 https://futflix.netlify.app/
 

@@ -92,4 +92,8 @@
     .footer-container .social-media, .copyright{
         text-align: center;
     }
+
+    .footer-container .copyright{
+        padding-bottom: 20px;
+    }
 }

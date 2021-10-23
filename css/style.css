@@ -19,7 +19,7 @@
 /* Base */
 
 body{
-    background: linear-gradient(var(--color2),#141414);
+    background: var(--color2);
     color: white;
 }
 

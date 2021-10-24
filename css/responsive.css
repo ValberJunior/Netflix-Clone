@@ -74,13 +74,17 @@
       font-size: 20px;
     }
 
+    footer{
+        margin-top: 200px;
+    }
+
     .footer-container .info{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
 
-        margin-top: 60px;
+        margin-top: 50px;
 
         font-size: 12px;
     

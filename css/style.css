@@ -46,13 +46,16 @@ header .icon{
     width: 40px;
     margin-left: 10px;
 
-    cursor: pointer;
+    cursor: grab;
 }
 
 header .logo{
     color: var(--color1);
     font-size: 30px;
+
+    cursor: grab;
 }
+
 
 header a{
     text-decoration: none;
